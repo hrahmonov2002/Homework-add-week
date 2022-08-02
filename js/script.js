@@ -33,10 +33,9 @@ elForm.addEventListener("submit", function(evt) {
     elResultConvert.textContent = "Saturday";
    } else if (elDay.value == elDaySun) {
     elResultConvert.textContent = "Sunday";
-   } else if (elDay.value = elDay.value) {
-    elResultConvert.textContent = "Uzr bunday so'z aniqlanmadi";
-    return;
-   } 
+   } else {
+     elResultConvert.textContent = "Uzr bunday so'z aniqlanmadi"
+   }
    
 console.log(`Kun: ${elResultConvert.textContent}`);
 });
